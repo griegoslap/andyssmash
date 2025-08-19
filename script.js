@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
 
             // Send data to backend
-            fetch('/api/quotations', {
+            fetch('https://andyssmash-backend.onrender.com/api/quotations', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
